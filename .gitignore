@@ -2,6 +2,7 @@
 bin/cubeat
 bin/Release
 obj
+*.o
 
 # resources and tmp
 tmp
