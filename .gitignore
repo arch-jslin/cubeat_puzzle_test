@@ -1,0 +1,16 @@
+# generated executable
+bin/cubeat
+bin/Release
+obj
+
+# resources and tmp
+tmp
+rc
+
+# cmake generated
+Makefile
+cmake_install.cmake
+CMakeLists.txt
+CMakeScripts
+CMakeCache.txt
+CMakeFiles
