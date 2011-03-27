@@ -1,6 +1,6 @@
-#ifndef BINDING_TEST_HPP_INCLUDED
-#define BINDING_TEST_HPP_INCLUDED
+#ifndef __SHOOTING_CUBES_BINDING_TEST__
+#define __SHOOTING_CUBES_BINDING_TEST__
 
 int puzzle_binding(lua_State*, int const&);
 
-#endif // BINDING_TEST_HPP_INCLUDED
+#endif // __SHOOTING_CUBES_BINDING_TEST__

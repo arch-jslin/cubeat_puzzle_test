@@ -163,10 +163,13 @@ int puzzle_binding(lua_State* L, int const& level)
 
 /* Before we load or execute any script. */
 
-    if( load_lua_script(L, "script/test2.lua") ) //will execute once globally
+    if( load_lua_script(L, "script/puzzle_gen_interface.lua") ) //will execute once globally
         return 1;
 
     printf("---- the script is executed globally once after loaded ----\n");
+
+    call_lua_function<int>(L, "generate_to_file", level, 6, 10);
+
 
     //try to get some table here...
 //    lua_getglobal(L, "config");
